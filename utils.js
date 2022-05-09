@@ -1,6 +1,3 @@
-export function renderTools(tool) {
-    const div = document.createElement('div');
-    div.classList.add('tool');
-
-    return div;
+export function findById(id, data) {
+    return data.find((item) => item.id === id);
 }
